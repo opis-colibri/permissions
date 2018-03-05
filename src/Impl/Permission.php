@@ -15,7 +15,7 @@
  * limitations under the License.
  * ============================================================================ */
 
-namespace OpisColibri\Permissions\Entities;
+namespace OpisColibri\Permissions\Impl;
 
 use OpisColibri\Permissions\IPermission;
 

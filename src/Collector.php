@@ -19,7 +19,7 @@ namespace OpisColibri\Permissions;
 
 use Opis\Colibri\Collector as AbstractCollector;
 use Opis\Colibri\ItemCollectors\ContractCollector;
-use OpisColibri\Permissions\Entities\PermissionRepository;
+use OpisColibri\Permissions\Impl\PermissionRepository;
 
 class Collector extends AbstractCollector
 {
