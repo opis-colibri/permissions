@@ -29,7 +29,7 @@ class Collector extends AbstractCollector
     public function __invoke(): array
     {
         return [
-            'contracts' => -1
+            'contracts' => -1,
         ];
     }
 

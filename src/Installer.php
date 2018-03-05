@@ -19,7 +19,9 @@ namespace OpisColibri\Permissions;
 
 use Opis\Colibri\Installer as AbstractInstaller;
 use OpisColibri\Permissions\Collectors\PermissionCollector;
-use function Opis\Colibri\Functions\{app};
+use function Opis\Colibri\Functions\{
+    app
+};
 
 class Installer extends AbstractInstaller
 {

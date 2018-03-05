@@ -21,14 +21,14 @@ interface IPermission
 {
     /**
      * Permission's name
-     * 
+     *
      * @return  string
      */
     public function name(): string;
 
     /**
      * Permission's description
-     * 
+     *
      * @return  string
      */
     public function description(): string;

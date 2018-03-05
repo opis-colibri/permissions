@@ -26,7 +26,7 @@ interface IRole
 
     /**
      * Role's name
-     * 
+     *
      * @return  string
      */
     public function name(): string;
@@ -65,7 +65,7 @@ interface IRole
 
     /**
      * Role's permissions
-     * 
+     *
      * @return  iterable|IPermission[]
      */
     public function permissions(): iterable;
