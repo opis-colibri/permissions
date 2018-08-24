@@ -15,11 +15,11 @@
  * limitations under the License.
  * ============================================================================ */
 
-namespace OpisColibri\Permissions\Impl;
+namespace Opis\Colibri\Modules\Permissions\Impl;
 
 use function Opis\Colibri\Functions\app;
-use OpisColibri\Permissions\IPermission;
-use OpisColibri\Permissions\IPermissionRepository;
+use Opis\Colibri\Modules\Permissions\IPermission;
+use Opis\Colibri\Modules\Permissions\IPermissionRepository;
 
 class PermissionRepository implements IPermissionRepository
 {

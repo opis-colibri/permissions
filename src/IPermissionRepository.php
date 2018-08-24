@@ -15,7 +15,7 @@
  * limitations under the License.
  * ============================================================================ */
 
-namespace OpisColibri\Permissions;
+namespace Opis\Colibri\Modules\Permissions;
 
 interface IPermissionRepository
 {

@@ -15,10 +15,10 @@
  * limitations under the License.
  * ============================================================================ */
 
-namespace OpisColibri\Permissions;
+namespace Opis\Colibri\Modules\Permissions;
 
 use Opis\Colibri\Installer as AbstractInstaller;
-use OpisColibri\Permissions\Collectors\PermissionCollector;
+use Opis\Colibri\Modules\Permissions\Collectors\PermissionCollector;
 use function Opis\Colibri\Functions\{
     app
 };

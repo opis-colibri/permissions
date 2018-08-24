@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "OpisColibri\\Permissions\\": "src/"
+            "Opis\\Colibri\\Modules\\Permissions\\": "src/"
         }
     },
     "config": {
@@ -27,14 +27,8 @@
     "extra": {
         "module": {
             "title": "Permissions module",
-            "collector": {
-                "file": "src/Collector.php",
-                "class": "OpisColibri\\Permissions\\Collector"
-            },
-            "installer": {
-                "file": "src/Installer.php",
-                "class": "OpisColibri\\Permissions\\Installer"
-            }
+            "collector": "Opis\\Colibri\\Modules\\Permissions\\Collector",
+            "installer": "Opis\\Colibri\\Modules\\Permissions\\Installer"
         },
         "branch-alias": {
             "dev-master": "1.0.x-dev"

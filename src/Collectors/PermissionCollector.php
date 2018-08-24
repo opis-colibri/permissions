@@ -15,7 +15,7 @@
  * limitations under the License.
  * ============================================================================ */
 
-namespace OpisColibri\Permissions\Collectors;
+namespace Opis\Colibri\Modules\Permissions\Collectors;
 
 use Opis\Colibri\ItemCollector;
 

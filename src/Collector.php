@@ -15,11 +15,11 @@
  * limitations under the License.
  * ============================================================================ */
 
-namespace OpisColibri\Permissions;
+namespace Opis\Colibri\Modules\Permissions;
 
 use Opis\Colibri\Collector as AbstractCollector;
 use Opis\Colibri\ItemCollectors\ContractCollector;
-use OpisColibri\Permissions\Impl\PermissionRepository;
+use Opis\Colibri\Modules\Permissions\Impl\PermissionRepository;
 
 class Collector extends AbstractCollector
 {

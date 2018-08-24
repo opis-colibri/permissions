@@ -15,9 +15,9 @@
  * limitations under the License.
  * ============================================================================ */
 
-namespace OpisColibri\Permissions\Impl;
+namespace Opis\Colibri\Modules\Permissions\Impl;
 
-use OpisColibri\Permissions\IPermission;
+use Opis\Colibri\Modules\Permissions\IPermission;
 
 class Permission implements IPermission
 {
