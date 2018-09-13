@@ -26,6 +26,8 @@ use Opis\Colibri\ItemCollector;
  */
 class PermissionCollector extends ItemCollector
 {
+    const NAME = 'permissions';
+
     /**
      * PermissionCollector constructor.
      */

@@ -30,7 +30,8 @@ class Installer extends AbstractInstaller
      */
     public function enable()
     {
-        app()->getCollector()->register('permissions', PermissionCollector::class, 'Permission collector');
+        app()->getCollector()->register(PermissionCollector::NAME, PermissionCollector::class,
+            'Permission collector');
     }
 
     /**
@@ -38,6 +39,6 @@ class Installer extends AbstractInstaller
      */
     public function disable()
     {
-        app()->getCollector()->unregister('permissions');
+        app()->getCollector()->unregister(PermissionCollector::NAME);
     }
 }
